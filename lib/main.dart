@@ -5,7 +5,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.pink[200]),
+      theme: ThemeData(primarySwatch: Colors.red),
       title: 'day4 App',
       home: Homepage(),
     ),
