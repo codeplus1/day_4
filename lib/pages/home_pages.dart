@@ -12,7 +12,7 @@ class Homepage extends StatelessWidget {
         ),
         centerTitle: true,
       ),
-      body: Column(
+      body: ListView(
         children: [
           Image.network(
               "https://images.unsplash.com/photo-1562877773-c6dd55a1415e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80"),
